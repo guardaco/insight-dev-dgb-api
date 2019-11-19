@@ -186,7 +186,7 @@ Address.prototype.update = function(next, opts) {
                 vout: x.index,
                 ts: x.ts,
                 scriptPubKey: x.scriptPubKey,
-                amount: x.value_sat / BitcoreUtil.COIN,
+                amount: x.value_sat  ?  x.value_sat / 100000000 : null,
                 confirmations: x.isConfirmedCached ? (config.safeConfirmations) : x.confirmations,
                 confirmationsFromCache: !!x.isConfirmedCached,
               };
