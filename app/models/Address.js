@@ -6,7 +6,9 @@ var async              = require('async');
 var bitcore            = require('bitcore');
 var BitcoreAddress     = bitcore.Address;
 var BitcoreTransaction = bitcore.Transaction;
-var BitcoreUtil        = bitcore.util;
+var BitcoreUtil        = {
+  COIN: 100000000,
+};
 var Parser             = bitcore.BinaryParser;
 var Buffer             = bitcore.Buffer;
 var TransactionDb      = imports.TransactionDb || require('../../lib/TransactionDb').default();
@@ -30,7 +32,6 @@ function Address(addrStr) {
   this.unspent   = [];
 
   var a = new BitcoreAddress(addrStr);
-  a.validate();
   this.addrStr        = addrStr;
   
   Object.defineProperty(this, 'totalSent', {
