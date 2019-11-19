@@ -65,7 +65,7 @@
     "digibyte": "^0.15.8",
     "digibyte-p2p": "^5.0.3",
     "digibyted-rpc": "git://github.com/digicontributer/digibyted-rpc.git",
-    "express": "~3.4.7",
+    "express": "~3.11.0",
     "glob": "*",
     "level": "^5.0.1",
     "leveldown": "^5.1.1",
