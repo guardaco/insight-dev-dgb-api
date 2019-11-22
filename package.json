@@ -61,7 +61,7 @@
     "bitauth": "^0.1.1",
     "bitcore": "git://github.com/digicontributer/bitcore.git#8a1376a65a23dc5e6e7445eee8227442a19abb88",
     "bufferput": "git://github.com/bitpay/node-bufferput.git",
-    "buffertools": "*",
+    "buffertools": "2.1.5",
     "commander": "^2.3.0",
     "connect-ratelimit": "git://github.com/dharmafly/connect-ratelimit.git#0550eff209c54f35078f46445000797fa942ab97",
     "cron": "^1.0.4",
