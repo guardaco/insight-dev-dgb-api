@@ -70,7 +70,7 @@
     "level": "^5.0.1",
     "leveldown": "^5.1.1",
     "levelup": "^4.1.0",
-    "lodash": "^2.4.1",
+    "lodash": "^4.17.19",
     "microtime": "^3.0.0",
     "mkdirp": "^0.5.0",
     "moment": "~2.5.0",
