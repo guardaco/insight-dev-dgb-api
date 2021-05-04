@@ -81,7 +81,7 @@
     "socket.io-client": "1.0.6",
     "soop": "=0.1.5",
     "winston": "0.5.7",
-    "xmlhttprequest": "~1.6.0"
+    "xmlhttprequest": "~1.7.0"
   },
   "devDependencies": {
     "chai": "*",
